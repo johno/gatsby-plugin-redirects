@@ -1,5 +1,5 @@
 const fs = require('fs')
-const { onPostBuild } = require('gatsby-plugin-meta-redirect')
+const { onPostBuild } = require('gatsby-plugin-meta-redirect/gatsby-node')
 
 const FILE_NAME = './redirects.json'
 
